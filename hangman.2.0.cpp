@@ -8,7 +8,7 @@
 using namespace std;
 
 const int MAX_BAD_GUESSES = 7;
-const char DATA_FILE[] = "data/Ogden_Picturable_200.txt";
+const char DATA_FILE[] = "/Users/nguyentruong/Documents/Project/hangman1/Ogden_Picturable_200.txt";
 
 string chooseWord(const char* fileName);
 void renderGame(const string& guessedWord, const string& badGuesses);
